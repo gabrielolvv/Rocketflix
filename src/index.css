@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Poppins';
+  overflow: hidden;
+}
+
+.app{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%);
+  padding-top: 86px;
+
+}
+
+.app .container{
+  text-align: center;
+  width: 628px;
+  margin: 0 auto;
+}
+.app .container .titulo h1{
+  font-size: 40px;
+}
+.app .container .titulo .logo{
+  width: 87.24px;
+  height: 62.93px;
+  background-image: url('./images/logo.png');
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+.app .container .logo{
+  width: 35px;
+  height: 25px;
+  background-image: url('./images/logo.png');
+  background-size: 100% 100%;
+  margin-right: 10px;
+}
+.app button.btn-procurar{
+  color: black;
+  width: 180.98px;
+  height: 47px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bolder;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+section.catalogo{
+  width: 628px;
+  height: 319px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+section.catalogo .banner{
+  width: 201px;
+  height: 243px;
+}
+
+section.catalogo h2{
+  font-size: 20px;
+}
+section.catalogo p{
+  width: 383px;
+  text-align: justify;
+  font-size: 16px;
+}
